@@ -1,0 +1,14 @@
+
+---
+
+### **4. Testing the App**
+1. Run the backend and frontend servers.
+2. Test adding messages via `POST /api/{queue_name}`.
+3. Check the UI for:
+   - Display of available queues and message counts.
+   - Fetching messages with and without timeouts.
+4. Verify the Voyantis branding aligns with their color scheme.
+
+---
+
+Would you like assistance with testing or adding additional features, like notifications or user authentication?

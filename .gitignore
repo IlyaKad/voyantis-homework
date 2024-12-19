@@ -1,0 +1,13 @@
+# Node.js
+node_modules/
+npm-debug.log*
+*.lock
+
+# React and Vite
+/build
+/dist
+/coverage
+/public
+.env
+.env.local
+.env.*
