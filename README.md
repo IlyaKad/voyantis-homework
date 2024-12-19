@@ -11,7 +11,7 @@ This application allows users to manage message queues with a REST API and a use
 ## Installation
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone <repository-url>
    cd <repository-directory>
 
@@ -24,3 +24,10 @@ This application allows users to manage message queues with a REST API and a use
    npm install
    npm run dev
    Navigate to http://localhost:5173 to use the app.
+```
+## For incerting to queys use this curl:
+```
+curl --location 'http://localhost:3001/api/my_queue' \
+--header 'Content-Type: application/json' \
+--data '{"id": 1, "text": "Hello, this is a test message!"}'
+```
